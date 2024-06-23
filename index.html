@@ -9,7 +9,9 @@
 <body id="root">
     <section id="landing">
         <nav class="nav__bar">
-            <img src="./assets/Treact.svg" class="logo"><span class="treact">Treact</span>
+            <div class="logo__container">
+                <img src="./assets/Treact.svg" class="logo"><span class="treact">Treact</span>
+            </div>
             <ul class="links">
                 <li class="nav__links"><a href="#">About</a></li>
                 <li class="nav__links"><a href="#">Blog</a></li>
@@ -22,27 +24,34 @@
     </section>
 <main>
     <section id="opener">
-        <div class="opener__row">
-            <div class="opener__text">
-                <h2>Beautiful React Templates <span class="blue-head">for you.</span></h2>
-                <p>Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components</p>
-                <input type="text" placeholder="Your E-mail Address"> <a href="#"<button>Get Started</button></a></input>
-                <img class="customers" src="./assets/customers.png">
-            </div>
+        <div class="row">
+            <div class="text__column">
+                <div class="text-container">
+                    <div class="opener__text">
+                    <h2 class="opener-title">Beautiful React Templates <span class="blue-head">for you.</span></h2>
+                    <p class="opener-para">Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components</p>
+                    <div class="input">
+                        <input class="sign-up" type="text" placeholder="Your E-mail Address">
+                        <button class="butt">Get Started</button>
+                    </div>
+                    <img class="customers" src="./assets/customers.png">
+                    </div>
+                </div>
+            </div> 
             <figure class="opener__img--wrapper">
                 <img class="opener__img" src="./assets/office.svg" alt="Winter Office Set-up">
             </figure>
         </div>
     </section>
     <section class="features">
-        <div class="features__container">
-            <div class="feature__row">
+        <div class="container">
+            <div class="row">
                 <div class="feature__header">
                 <h4 class="blue-head-two"> FEATURES</h4>
                 <h2> We have Amazing <span class="blue-head">Service.</span></h2>
                 <p class="head-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam alias vitae sequi suscipit, optio ipsum delectus! Hic facilis impedit labore corporis non magni accusantium iure veniam enim a? Esse, voluptates.</p>
-            </div>
-            <div class="feature__services">
+                </div>
+                <div class="feature__services">
                     <div class="feature__service">
                         <span class="feature__logo">
                             <img src="./assets/shield.svg">
@@ -99,85 +108,83 @@
                     </div>
                 </div>
             </div>
+            </div>
         </div>
     </section>
     <section class="work">
-        <div class="work__container">
-            <div class="work__row">
-                <div class="work__column">
-                <div class="work__text">
+        <div class="container">
+            <div class="row-two">
+                <div class="column">
                     <h4 class="blue-head-two">Quality Work</h4>
                     <h2>Designed & Devloped by our <span class="blue-head">Professionals.</span></h2>
                     <p class="head-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolorum, dolorem laudantium molestias qui quae tempore dolor repudiandae animi ullam aut ducimus consequuntur eum molestiae minima ex labore sunt doloremque.</p>
-                    <button class="learn__more">Learn More</button>
+                    <button class="butt">Learn More</button>
                 </div>
                 <div class="work__img">
-                    <img src="./assets/screen.png">
+                    <img class="screen" src="./assets/screen.png">
                 </div>
-            </div>
             </div>
         </div>
     </section>
     <section class="steps">
-        <div class="steps__container">
-            <div class="steps__row">
-            <div class="steps__img">
-                <img src="./assets/build.png">
-            </div>
-            <div class="steps__text">
+        <div class="container">
+            <div class="row-two">
+                <div class="steps__img">
+                <img class="laptop" src="./assets/build.png">
+                </div>
+                 <div class="steps__text">
                 <h4 class="blue-head-two">Steps</h4>
-                <h2>East to <span class="blue-head">Get Started.</span></h2>
+                <h2>Easy to <span class="blue-head">Get Started.</span></h2>
                 <ul class="steps__list">
-                <li class="step">
-                    <div class="step-number">01</div>
-                    <div class="step-text">
+                    <li class="step">
+                        <div class="step-number">01</div>
+                        <div class="step-text">
                         <h3 class="step-title">Register</h3>
                         <p class="step-desc">Create an account with a pre-exsisting Google or Facebook.</p>
-                    </div>
-                </li>
-                <li class="step">
-                    <div class="step-number">02</div>
-                    <div class="step-text">
+                        </div>
+                    </li>
+                    <li class="step">
+                        <div class="step-number">02</div>
+                     <div class="step-text">
                         <h3 class="step-title">Download</h3>
                         <p class="step-desc">Browse the catalog and download the template that best fits you.</p>
-                    </div>
-                </li>
-                <li class="step">
-                    <div class="step-number">03</div>
-                    <div class="step-text">
+                        </div>
+                    </li>
+                    <li class="step">
+                        <div class="step-number">03</div>
+                        <div class="step-text">
                         <h3 class="step-title">Run</h3>
                         <p class="step-desc">Follow the instructions to set up and customize to your own liking.</p>
-                    </div>
+                        </div>
                 </li>
                 </ul>
-            </div>  
+                </div>  
             </div>
         </div>
     </section>
     <section class="values">
-        <div class="values__container">
-            <div class="value__row">
+        <div class="container">
+            <div class="row-two">
                 <div class="value-text">
                         <h4 class="blue-head-two">Values</h4>
                         <h2> We Always Abide by Our <span class="blue-head">Principles</h2>
                         <p class="head-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro ex tempore eos voluptatem ullam, quisquam, harum nobis sunt iure veritatis, laborum ratione eius excepturi. Corrupti iure necessitatibus eos rerum harum.</p>
                 </div>
-                <div class="value-img">
-                    <img src="./assets/prototype.svg">
+                <div class="value-img--wrapper">
+                    <img class="value-img" src="./assets/prototype.svg">
                 </div>
             </div>
         </div>
     </section>
     <section class="pricing">
-        <div clas="pricing__container">
-            <div class="pricing__row">
+        <div class="container">
                 <div class="pricing__header">
                     <h4 class="blue-head-two">Pricing</h4>
                     <h2>Reasonable & Flexible <span class="blue-head">Plans.</span></h2>
                     <p class="head-para">Plans available to fit customers and companies of any size.</p>
                 </div>
                 <div class="pricing__plans">
-                    <div class="plan-one">
+                    <div class="plan plan-one">
                         <div class="plan-top">
                             <span class="name">Personal</span>
                             <span class="price">$17.99</span>
@@ -191,10 +198,10 @@
                             <li class="plan-feat">Basic Assitance</li>
                         </ul>
                         <div class="plan-bottom">
-                            <button class="buy-now">BUY NOW</button>
+                            <button class="butt">BUY NOW</button>
                         </div>
                     </div>
-                    <div class="plan-two">
+                    <div class="plan plan-two">
                         <div class="plan-top">
                             <span class="name">Business</span>
                             <span class="price">$37.99</span>
@@ -208,10 +215,10 @@
                             <li class="plan-feat">Priority Assitance</li>
                         </ul>
                         <div class="plan-bottom">
-                            <button class="buy-now-two">BUY NOW</button>
+                            <button class="butt">BUY NOW</button>
                         </div>
                     </div>
-                    <div class="plan-three">
+                    <div class="plan plan-three">
                         <div class="plan-top">
                             <span class="name">Enterprise</span>
                             <span class="price">$57.99</span>
@@ -225,20 +232,19 @@
                             <li class="plan-feat">Personal Assitance</li>
                         </ul>
                         <div class="plan-bottom">
-                            <button class="buy-now-3">BUY NOW</button>
+                            <button class="butt">BUY NOW</button>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     </section>
     <footer>
         <div class="footer__container">
-            <div class="footer__row">
+            <div class="row">
                 <div class="footer__links">
                     <div class="foot-links">
                         <h5>MAIN</h5>
-                        <ul>
+                        <ul class="foot-list">
                             <li class="foot-link">
                                 <a href="#">Blog</a>
                             </li>
@@ -255,7 +261,7 @@
                     </div>
                     <div class="foot-links">
                         <h5>PRODUCT</h5>
-                        <ul>
+                        <ul class="foot-list">
                             <li class="foot-link">
                                 <a href="#">Log In</a>
                             </li>
@@ -272,7 +278,7 @@
                     </div>
                     <div class="foot-links">
                         <h5>PRESS</h5>
-                        <ul>
+                        <ul class="foot-list">
                             <li class="foot-link">
                                 <a href="#">Logos</a>
                             </li>
@@ -289,7 +295,7 @@
                     </div>
                     <div class="foot-links">
                         <h5>TEAM</h5>
-                        <ul>
+                        <ul class="foot-list">
                             <li class="foot-link">
                                 <a href="#">Career</a>
                             </li>
@@ -306,7 +312,7 @@
                     </div>
                     <div class="foot-links">
                         <h5>LEGAL</h5>
-                        <ul>
+                        <ul class="foot-list">
                             <li class="foot-link">
                                 <a href="#">GDPR</a>
                             </li>
@@ -328,7 +334,12 @@
                     <div class="footer-socials"></div>
                 </div>
             </div>
-        </div>
+        <nav class="nav__bar">
+            <div class="logo__container">
+                <img src="./assets/Treact.svg" class="logo"><span class="treact">Treact Inc.</span>
+            </div>
+        </nav>
+    </div>
     </footer>
 </main>
 </body>
